@@ -1,5 +1,12 @@
 {
   "name": "projetoionic",
-  "integrations": {},
-  "type": "ionic-angular"
+  "integrations": {
+    "cordova": {}
+  },
+  "proxies": [
+    {
+      "path": "http://localhost:8100",
+      "proxyUrl": "http://localhost:8080"
+    }
+  ]
 }
